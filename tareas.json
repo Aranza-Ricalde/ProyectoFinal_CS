@@ -1,0 +1,44 @@
+{
+  "tareas": [
+    {
+      "id": "a301e37d-2099-456b-997c-5ac9f9c9b987",
+      "titulo": "Preparar presentación",
+      "descripcion": "Preparar las diapositivas para la reunión del lunes.",
+      "fechaVencimiento": "2025-04-22",
+      "prioridad": "ALTA",
+      "estado": "EN_PROGRESO"
+    },
+    {
+      "id": "603ed77f-280c-4abc-b10f-5265e55d48c0",
+      "titulo": "Enviar reporte mensual",
+      "descripcion": "Enviar el reporte financiero del mes al jefe.",
+      "fechaVencimiento": "2025-04-24",
+      "prioridad": "MEDIA",
+      "estado": "PENDIENTE"
+    },
+    {
+      "id": "c9c85ea6-7b42-4056-8552-c4bbe91ae876",
+      "titulo": "Actualizar sistema",
+      "descripcion": "Actualizar el sistema operativo de los servidores.",
+      "fechaVencimiento": "2025-04-22",
+      "prioridad": "BAJA",
+      "estado": "PENDIENTE"
+    },
+    {
+      "id": "a35cc38b-7c38-419f-8a87-5b61c62e6ddc",
+      "titulo": "Revisar código",
+      "descripcion": "Revisar el pull request de la nueva funcionalidad.",
+      "fechaVencimiento": "2025-04-24",
+      "prioridad": "MEDIA",
+      "estado": "COMPLETADA"
+    },
+    {
+      "id": "e1ccff56-8a69-4f02-9c01-ba2b907a9127",
+      "titulo": "Organizar archivos",
+      "descripcion": "Limpiar y organizar los archivos en Google Drive.",
+      "fechaVencimiento": "2025-04-26",
+      "prioridad": "BAJA",
+      "estado": "EN_PROGRESO"
+    }
+  ]
+}

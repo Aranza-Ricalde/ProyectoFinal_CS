@@ -6,15 +6,23 @@ import modelo.CampoVacioException;
 import modelo.Estado;
 import modelo.FechaPasadaException;
 import modelo.ListaTareas;
+import modelo.PersistenciaTareas;
 import modelo.Prioridad;
 import modelo.Tarea;
 import vista.VistaConsola;
 
 public class controladorConsola {
-    private final ListaTareas listaTareas;
+    private ListaTareas listaTareas;
 
     public controladorConsola(){ 
-        this.listaTareas = new ListaTareas();
+        
+        try {
+            this.listaTareas = PersistenciaTareas.cargarListaTareas();
+        } catch (Exception e) {
+            this.listaTareas = new ListaTareas();
+            System.out.println("Error al cargar las tareas");
+
+        }
     }
 
     public void iniciar(){
