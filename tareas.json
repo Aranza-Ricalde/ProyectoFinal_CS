@@ -2,43 +2,75 @@
   "tareas": [
     {
       "id": "a301e37d-2099-456b-997c-5ac9f9c9b987",
-      "titulo": "Preparar presentación",
-      "descripcion": "Preparar las diapositivas para la reunión del lunes.",
+      "titulo": "Preparar presentaci?n",
+      "descripcion": "Dise?ar y revisar las diapositivas para la reuni?n del lunes con direcci?n.",
       "fechaVencimiento": "2025-04-22",
       "prioridad": "ALTA",
-      "estado": "EN_PROGRESO"
+      "estado": "COMPLETADA"
     },
     {
       "id": "603ed77f-280c-4abc-b10f-5265e55d48c0",
       "titulo": "Enviar reporte mensual",
-      "descripcion": "Enviar el reporte financiero del mes al jefe.",
-      "fechaVencimiento": "2025-04-24",
+      "descripcion": "Revisar, completar y enviar el reporte financiero del mes a la gerencia.",
+      "fechaVencimiento": "2025-04-26",
+      "prioridad": "ALTA",
+      "estado": "COMPLETADA"
+    },
+    {
+      "id": "ea4cf0d6-f5f5-4dc9-917a-b5668355ddfd",
+      "titulo": "Reuni?n con proveedor",
+      "descripcion": "Agendar y asistir a la reuni?n con el proveedor de software.",
+      "fechaVencimiento": "2025-04-22",
       "prioridad": "MEDIA",
       "estado": "PENDIENTE"
     },
     {
+      "id": "a35cc38b-7c38-419f-8a87-5b61c62e6ddc",
+      "titulo": "Revisar c?digo",
+      "descripcion": "Revisar los cambios del pull request #104 antes del merge.",
+      "fechaVencimiento": "2025-04-24",
+      "prioridad": "MEDIA",
+      "estado": "EN_PROGRESO"
+    },
+    {
+      "id": "b5e2a3e4-0029-4d09-98cd-73563187d6b2",
+      "titulo": "Preparar informe de auditor?a",
+      "descripcion": "Reunir documentaci?n para el informe de auditor?a interna.",
+      "fechaVencimiento": "2025-04-29",
+      "prioridad": "MEDIA",
+      "estado": "PENDIENTE"
+    },
+    {
+      "id": "bb6863ec-ea4b-439f-a983-25706183e5dd",
+      "titulo": "Capacitaci?n de nuevos empleados",
+      "descripcion": "Coordinar y llevar a cabo la capacitaci?n inicial del nuevo personal.",
+      "fechaVencimiento": "2026-04-25",
+      "prioridad": "MEDIA",
+      "estado": "COMPLETADA"
+    },
+    {
       "id": "c9c85ea6-7b42-4056-8552-c4bbe91ae876",
       "titulo": "Actualizar sistema",
-      "descripcion": "Actualizar el sistema operativo de los servidores.",
+      "descripcion": "Instalar las actualizaciones del sistema operativo en los servidores.",
       "fechaVencimiento": "2025-04-22",
       "prioridad": "BAJA",
       "estado": "PENDIENTE"
     },
     {
-      "id": "a35cc38b-7c38-419f-8a87-5b61c62e6ddc",
-      "titulo": "Revisar código",
-      "descripcion": "Revisar el pull request de la nueva funcionalidad.",
-      "fechaVencimiento": "2025-04-24",
-      "prioridad": "MEDIA",
+      "id": "293a66b2-4ba5-41cb-870c-39f07eb22591",
+      "titulo": "Archivar documentos",
+      "descripcion": "Organizar y archivar los documentos f?sicos del trimestre.",
+      "fechaVencimiento": "2025-04-23",
+      "prioridad": "BAJA",
       "estado": "COMPLETADA"
     },
     {
-      "id": "e1ccff56-8a69-4f02-9c01-ba2b907a9127",
-      "titulo": "Organizar archivos",
-      "descripcion": "Limpiar y organizar los archivos en Google Drive.",
-      "fechaVencimiento": "2025-04-26",
+      "id": "c2fc8bfb-d8f3-478d-81b0-ae8cfa67fe5b",
+      "titulo": "Planificaci?n estrat?gica 2042",
+      "descripcion": "Redactar el borrador del plan estrat?gico para el a?o 2042.",
+      "fechaVencimiento": "2042-05-22",
       "prioridad": "BAJA",
-      "estado": "EN_PROGRESO"
+      "estado": "PENDIENTE"
     }
   ]
 }

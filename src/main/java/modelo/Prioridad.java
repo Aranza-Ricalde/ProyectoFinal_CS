@@ -1,9 +1,9 @@
 package modelo;
 
 public enum Prioridad {
-    ALTA("Alta", 1),
-    MEDIA("Media",2), 
-    BAJA("Baja",3);
+    ALTA("Alta", 0),
+    MEDIA("Media",1), 
+    BAJA("Baja",2);
     
     private final String cadena;
     public  final int    valor;  
