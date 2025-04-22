@@ -66,19 +66,6 @@ public class ListaTareas {
     }
 
 
-    public List<Tarea> filtrar(Predicate<Tarea> filtro){ 
-        List<Tarea> seleccion = this.tareas.stream().filter(filtro).collect(Collectors.toList());
-        return seleccion;
-    }
-
-    public List<Tarea> buscar(String consulta){ 
-        List<Tarea> busqueda = this.tareas.stream().filter(t -> 
-                t.getTitulo().toLowerCase().contains(consulta.toLowerCase()) || 
-                t.descripcion.toLowerCase().contains(consulta.toLowerCase()))
-        .collect(Collectors.toList());
-        return busqueda;
-    }
-
 
 
     
