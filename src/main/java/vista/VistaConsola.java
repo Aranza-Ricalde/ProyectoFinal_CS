@@ -43,7 +43,7 @@ public class VistaConsola {
                 actualTarea.id.toString().substring(0, 8),
                 actualTarea.getTitulo().substring(0,Math.min(actualTarea.getTitulo().length(), 32)), 
                 actualTarea.descripcion.substring(0, Math.min(actualTarea.descripcion.length(), 19)),
-                actualTarea.getFechaVenciomiento(),
+                actualTarea.getFechaVencimiento(),
                 actualTarea.prioridad,
                 actualTarea.estado
             );

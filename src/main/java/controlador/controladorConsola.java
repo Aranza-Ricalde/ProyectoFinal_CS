@@ -110,7 +110,7 @@ public class controladorConsola {
         }
         while(true){ 
             try{ 
-                tareaActual.setFechaVenciminto(fechaVencimiento);
+                tareaActual.setFechaVencimiento(fechaVencimiento);
                 break;
             }catch(FechaPasadaException e){ 
                 fechaVencimiento = VistaConsola.leerFecha("Ingrese una fecha mayor a hoy (formato: AAAA-MM-DD) \\n> ");

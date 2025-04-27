@@ -27,7 +27,7 @@ public class ListaTareas {
         Tarea referencia = tareas.get(tareas.indexOf(tarea));
         referencia.setTitulo(tareaModificada.getTitulo());
         referencia.descripcion = tareaModificada.descripcion; 
-        referencia.setFechaVenciminto(tareaModificada.getFechaVenciomiento());
+        referencia.setFechaVencimiento(tareaModificada.getFechaVencimiento());
         referencia.estado = tareaModificada.estado; 
         referencia.prioridad = tareaModificada.prioridad;
     }
@@ -36,7 +36,7 @@ public class ListaTareas {
         Tarea referencia = tareas.get(index);
         referencia.setTitulo(tarea.getTitulo());
         referencia.descripcion = tarea.descripcion; 
-        referencia.setFechaVenciminto(tarea.getFechaVenciomiento());
+        referencia.setFechaVencimiento(tarea.getFechaVencimiento());
         referencia.estado = tarea.estado; 
         referencia.prioridad = tarea.prioridad;
     }
@@ -54,7 +54,7 @@ public class ListaTareas {
     }
  
     public void ordenarFechaVencimiento(){
-        this.tareas.sort(Comparator.comparing(t-> t.getFechaVenciomiento()));
+        this.tareas.sort(Comparator.comparing(t-> t.getFechaVencimiento()));
     }
 
     public void ordenarPrioridad(){

@@ -15,7 +15,7 @@ public class Utils {
                 tarea.id,
                 tarea.getTitulo(),
                 tarea.descripcion,
-                tarea.getFechaVenciomiento(),
+                tarea.getFechaVencimiento(),
                 tarea.prioridad.toString(),
                 tarea.estado.toString()
             });

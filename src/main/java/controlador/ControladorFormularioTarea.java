@@ -58,7 +58,7 @@ public abstract class ControladorFormularioTarea implements ActionListener{
         Estado estado = Estado.valueOf(vistaFormularioTarea.getEstado());
 
         Tarea tareaActual = new Tarea(titulo);
-        tareaActual.setFechaVenciminto(fechaVencimiento);
+        tareaActual.setFechaVencimiento(fechaVencimiento);
         tareaActual.descripcion = descripcion;
         tareaActual.prioridad = prioridad;
         tareaActual.estado = estado;

@@ -104,7 +104,7 @@ public class ControladorCRUD implements ActionListener, WindowListener{
         vistaModificarTarea.setId(actual.id.toString());
         vistaModificarTarea.setTitulo(actual.getTitulo());
         vistaModificarTarea.setDescripcion(actual.descripcion);
-        vistaModificarTarea.setFecha(actual.getFechaVenciomiento());
+        vistaModificarTarea.setFecha(actual.getFechaVencimiento());
         vistaModificarTarea.setPrioridad(actual.prioridad.valor);
         vistaModificarTarea.setEstado(2);
         vistaModificarTarea.setVisible(true);

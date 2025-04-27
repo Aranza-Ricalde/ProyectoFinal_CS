@@ -50,7 +50,7 @@ public class ControladorFiltrar implements ActionListener{
         }
         if(vistaFiltrar.getChkFecha()){ 
             LocalDate fechaSeleccionada = vistaFiltrar.getSpinnerFecha();
-            filtro = filtro.and(tarea -> tarea.getFechaVenciomiento() == fechaSeleccionada);
+            filtro = filtro.and(tarea -> tarea.getFechaVencimiento() == fechaSeleccionada);
         }
 
         ArrayList<Tarea> tareasSeleccionadas = (ArrayList<Tarea> )tareas.filtrar(filtro);

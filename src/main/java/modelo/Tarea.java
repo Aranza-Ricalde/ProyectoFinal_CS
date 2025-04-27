@@ -13,9 +13,7 @@ public class Tarea {
     public Estado estado; 
 
     public Tarea(String titulo) throws CampoVacioException{
-        if(titulo.isBlank()){ 
-            throw new CampoVacioException("Título");
-        } 
+        checarTitulo(titulo);
         this.id = UUID.randomUUID();
         this.titulo = titulo;
         this.descripcion = "";
@@ -25,24 +23,28 @@ public class Tarea {
     }
 
     public void setTitulo(String titulo) throws CampoVacioException{
-        if(titulo.isBlank()){ 
-            throw new CampoVacioException("Título");
-        }
+        checarTitulo(titulo);
         this.titulo = titulo;
     }
 
-    public void setFechaVenciminto(LocalDate fecha) throws FechaPasadaException{ 
+    public void setFechaVencimiento(LocalDate fecha) throws FechaPasadaException{ 
         if(fecha.isBefore(LocalDate.now())){ 
             throw new FechaPasadaException(); 
         }
         this.fechaVencimiento = fecha;
     }
 
-    public LocalDate getFechaVenciomiento(){ 
+    public LocalDate getFechaVencimiento(){ 
         return this.fechaVencimiento;
     }
 
     public String getTitulo(){ 
         return this.titulo; 
+    }
+
+    private void checarTitulo(String titulo) throws CampoVacioException{ 
+        if(titulo.isBlank() || titulo == null){ 
+            throw new CampoVacioException("Título");
+        } 
     }
 }
