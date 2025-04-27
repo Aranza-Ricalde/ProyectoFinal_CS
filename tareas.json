@@ -9,14 +9,6 @@
       "estado": "COMPLETADA"
     },
     {
-      "id": "603ed77f-280c-4abc-b10f-5265e55d48c0",
-      "titulo": "Enviar reporte mensual",
-      "descripcion": "Revisar, completar y enviar el reporte financiero del mes a la gerencia.",
-      "fechaVencimiento": "2025-04-26",
-      "prioridad": "ALTA",
-      "estado": "COMPLETADA"
-    },
-    {
       "id": "ea4cf0d6-f5f5-4dc9-917a-b5668355ddfd",
       "titulo": "Reuni?n con proveedor",
       "descripcion": "Agendar y asistir a la reuni?n con el proveedor de software.",
@@ -25,12 +17,36 @@
       "estado": "PENDIENTE"
     },
     {
+      "id": "c9c85ea6-7b42-4056-8552-c4bbe91ae876",
+      "titulo": "Actualizar sistema",
+      "descripcion": "Instalar las actualizaciones del sistema operativo en los servidores.",
+      "fechaVencimiento": "2025-04-22",
+      "prioridad": "BAJA",
+      "estado": "PENDIENTE"
+    },
+    {
+      "id": "293a66b2-4ba5-41cb-870c-39f07eb22591",
+      "titulo": "Archivar documentos",
+      "descripcion": "Organizar y archivar los documentos f?sicos del trimestre.",
+      "fechaVencimiento": "2025-04-23",
+      "prioridad": "BAJA",
+      "estado": "COMPLETADA"
+    },
+    {
       "id": "a35cc38b-7c38-419f-8a87-5b61c62e6ddc",
       "titulo": "Revisar c?digo",
       "descripcion": "Revisar los cambios del pull request #104 antes del merge.",
       "fechaVencimiento": "2025-04-24",
       "prioridad": "MEDIA",
       "estado": "EN_PROGRESO"
+    },
+    {
+      "id": "603ed77f-280c-4abc-b10f-5265e55d48c0",
+      "titulo": "Enviar reporte mensual",
+      "descripcion": "Revisar, completar y enviar el reporte financiero del mes a la gerencia.",
+      "fechaVencimiento": "2025-04-26",
+      "prioridad": "ALTA",
+      "estado": "COMPLETADA"
     },
     {
       "id": "b5e2a3e4-0029-4d09-98cd-73563187d6b2",
@@ -49,20 +65,12 @@
       "estado": "COMPLETADA"
     },
     {
-      "id": "c9c85ea6-7b42-4056-8552-c4bbe91ae876",
-      "titulo": "Actualizar sistema",
-      "descripcion": "Instalar las actualizaciones del sistema operativo en los servidores.",
-      "fechaVencimiento": "2025-04-22",
-      "prioridad": "BAJA",
-      "estado": "PENDIENTE"
-    },
-    {
-      "id": "293a66b2-4ba5-41cb-870c-39f07eb22591",
-      "titulo": "Archivar documentos",
-      "descripcion": "Organizar y archivar los documentos f?sicos del trimestre.",
-      "fechaVencimiento": "2025-04-23",
-      "prioridad": "BAJA",
-      "estado": "COMPLETADA"
+      "id": "28a78676-f69b-4d19-b8fe-9a4f236fd9b0",
+      "titulo": "La mejor tarea",
+      "descripcion": "Puede que si",
+      "fechaVencimiento": "2028-04-26",
+      "prioridad": "MEDIA",
+      "estado": "EN_PROGRESO"
     },
     {
       "id": "c2fc8bfb-d8f3-478d-81b0-ae8cfa67fe5b",
